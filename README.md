@@ -43,5 +43,11 @@ The Temperature is in Celsius.
 - Because i had used Html and Javascript before and because i knew i could use Electron from javascript to build a Browser window
 
 ## Known Limitations
-- The locations that are listed are self added and if you want to add a location it needs to be in the code itself. for that you need the laptitude and longtitude
-- it's put on an hourly rate and you cant change that in the browser itself. you can only change it in the code for now.
+- The locations that are listed are self added and if you want to add a location it needs to be in the code itself.
+- it's put on an hourly rate and you cant change that in the browser itself.
+- There are no images
+
+## Things to add
+1. More locations and making it easier to add locations and suchs.
+2. Changing the hour rate for it, like every 3 hours weather or every day weather.
+3. adding some images.
