@@ -34,3 +34,14 @@ It's possible to open it in a browser and you can open it in a browser window.
 The Date is in the format: DD\MM\YYYY. <br>
 Time is in the 24 Hour format.<br>
 The Temperature is in Celsius.
+
+
+
+
+## Choices
+- I choose for Html and Javascript
+- Because i had used Html and Javascript before and because i knew i could use Electron from javascript to build a Browser window
+
+## Known Limitations
+- The locations that are listed are self added and if you want to add a location it needs to be in the code itself. for that you need the laptitude and longtitude
+- it's put on an hourly rate and you cant change that in the browser itself. you can only change it in the code for now.
