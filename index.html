@@ -3,11 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tomorrow.io Weather Forecast</title>
+  <title>Weather Forecast</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <h1>Hourly Weather Forecast</h1>
+   <div class="controls">
+    <label id="label" for="location">Choose a location:</label>
+    <select id="location">
+      <option value="52.967, 5.917">Heerenveen, The Netherlands</option>
+      <option value="52.37, 4.89">Amsterdam, The Netherlands</option>
+      <option value="53.200, 5.783">Leeuwarden, The Netherlands</option>
+      <option value="51.5074,-0.1278">London, UK</option>
+      <option value="35.6895,139.6917">Tokyo, Japan</option>
+    </select>
+    <button id="button" onclick="loadWeather()">Get Forecast</button>
+  </div>
+
   <table>
     <thead>
       <tr>
