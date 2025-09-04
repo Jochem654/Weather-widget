@@ -30,7 +30,7 @@ It's possible to open it in a browser and you can open it in a browser window.
 6. There should be a browser window open to show you the weather.
 
 
-### Good things to know
+## Good things to know
 The Date is in the format: DD\MM\YYYY. <br>
 Time is in the 24 Hour format.<br>
 The Temperature is in Celsius.
