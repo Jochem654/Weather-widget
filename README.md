@@ -2,6 +2,19 @@
 
 It's possible to open it in a browser and you can open it in a browser window.
 
+## Download Files
+1. Click the green code button
+2. Click on Download Zip
+3. Open File explorer
+4. go to downloads
+5. Right click the compressed Weather-widget-main and click on the Extract all
+
+## Install Node.js
+1. Go to https://nodejs.org in a browser
+2. install node.js by following the instruction on the website.
+3. open your command prompt.
+4. Run the command "npm -v" to see if node.js is installed.
+
 ## Browser
 1. open the file explorer
 2. go to the Weather-widget file location.
@@ -9,14 +22,12 @@ It's possible to open it in a browser and you can open it in a browser window.
 4. with that it should open it in the latest browser you have used.
 
 ## Browser-Window
-1. Go to https://nodejs.org in a browser
-2. install node.js by following the instruction on the website.
-3. open your command prompt.
-4. Run the command "npm -v" to see if node.js is installed.
-5. Go to the file location in the command prompt.
-6. run the command "npm install -g electron"
-7. after that run the command "npm start"
-8. After you have runned the command "npm start". There should open a browser window to show you the weather.
+1. Open the command prompt
+2. Run the command "cd C:\Users\loots\Downloads\Weather-widget-main\Weather-widget-main". Or if you had chosen a different location to extract too, go to that in the command prompt
+3. run the command "npm install -g electron"
+4. after that run the command "npm start"
+5. After you have runned the command "npm start". 
+6. There should be a browser window open to show you the weather.
 
 
 ### Good things to know
