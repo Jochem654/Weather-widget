@@ -15,7 +15,7 @@
           hours.forEach(hour => {
             const dt = new Date(hour.time);
             const date = dt.toLocaleDateString();
-            const time = dt.toLocaleTimeString([], {hour: "2-digit", minute: "2-digit"});
+            const time = dt.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", hour12: false });
             const temp = hour.values.temperature.toFixed(1);
             const condition = hour.values.weatherCode;
 
