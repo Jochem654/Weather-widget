@@ -46,6 +46,7 @@ The Temperature is in Celsius.
 - The locations that are listed are self added and if you want to add a location it needs to be in the code itself.
 - it's put on an hourly rate and you cant change that in the browser itself.
 - There are no images
+- After so many refreshes it gets an error, because we can use the api only so many times.
 
 ## Things to add
 1. More locations and making it easier to add locations and suchs.
