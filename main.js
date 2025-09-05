@@ -1,3 +1,4 @@
+// This is for the creation of a browser window
 const { app, BrowserWindow } = require('electron');
 
 function createWindow () {
@@ -17,5 +18,4 @@ function createWindow () {
 
 app.whenReady().then(() => {
   createWindow();
-  createMenu();
 });

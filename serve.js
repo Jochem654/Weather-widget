@@ -1,4 +1,4 @@
-
+  // This is where they use the API key and everything else that gets into the table
     const apiKey = "BqIrA5np3i1shc8kBzrAYAhSgrM3Kf9G"; 
     
     function loadWeather() {

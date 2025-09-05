@@ -8,6 +8,7 @@
 </head>
 <body>
    <h1>Hourly Weather Forecast</h1>
+   <!-- This is where you can choose the locations where the API the weather data gets -->
    <div class="controls">
     <label id="label" for="location">Choose a location:</label>
     <select id="location">
@@ -22,6 +23,7 @@
     <button id="button" onclick="loadWeather()">Get Forecast</button>
   </div>
 
+  <!-- This is the template where you see the information -->
   <table>
     <thead>
       <tr>
@@ -34,6 +36,7 @@
     <tbody id="forecast"></tbody>
   </table>
 
+  <!-- the script to get the information for the weather -->
    <script src="serve.js"></script>
 </body>
 </html>
