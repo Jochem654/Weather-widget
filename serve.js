@@ -1,5 +1,5 @@
   // This is where they use the API key and everything else that gets into the table
-    const apiKey = ""; // API key between the brackets
+    const apiKey = ""; // API key from https://docs.tomorrow.io/reference/weather-forecast between the brackets
     
     function loadWeather() {
       const location = document.getElementById("location").value;
